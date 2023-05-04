@@ -98,7 +98,7 @@ def checkConn():
     retry=0
     conn=0
     try:
-       response=requests.get("http://13.233.20.108:80",timeout=5)
+       response=requests.get("http://smartvendz.com",timeout=5)
        print("Internet Connected")
        conn=1
     except requests.exceptions.RequestException as e:
